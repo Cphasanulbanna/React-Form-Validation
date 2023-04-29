@@ -1,0 +1,114 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container form {
+    display: flex;
+    flex-direction: column;
+    background-color: #222121;
+    max-width: 600px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.main-container form .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.main-container form .input-container:last-child {
+    margin-bottom: 0;
+}
+
+.main-container form .input-container input {
+    padding: 13px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(63, 63, 63);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.main-container form .input-container label span {
+    color: rgb(231, 53, 53);
+    font-size: 12px;
+}
+
+.main-container form .input-container label {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.main-container form button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 16px;
+    background: linear-gradient(rgb(255, 125, 108) 0%, rgb(255, 87, 64) 100%);
+    color: #fff;
+}
+
+.main-container form .input-container .error-message {
+    font-size: 14px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    color: #ff0000;
+    bottom: -20px;
+}
+
+.main-container form .input-container .checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-container form .input-container .checkbox-container .check-box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.main-container form .input-container .checkbox-container .check-box:last-child {
+    margin-right: 0;
+}
+
+.main-container form .input-container .checkbox-container .check-box input {
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.main-container form .input-container .checkbox-container .check-box label {
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+
+.main-container form .input-container select {
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(63, 63, 63);
+    max-width: 200px;
+    width: 100%;
+}
+
+.main-container form .input-container select option {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: rgb(63, 63, 63);
+}
+.main-container form .input-container select option.select {
+}

@@ -1,0 +1,95 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container form {
+    display: flex;
+    flex-direction: column;
+    background-color: #222121;
+    max-width: 600px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 20px;
+}
+.main-container form .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.main-container form .input-container div.gender {
+    display: flex;
+    align-items: center;
+}
+
+.main-container form .input-container div.gender input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.main-container form .input-container:last-child {
+    margin-bottom: 0;
+}
+
+.main-container form .input-container input {
+    padding: 13px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(63, 63, 63);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.main-container form .input-container label span {
+    color: rgb(231, 53, 53);
+    font-size: 12px;
+}
+
+.main-container form .input-container label {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.main-container form button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 16px;
+    background: linear-gradient(rgb(255, 125, 108) 0%, rgb(255, 87, 64) 100%);
+    color: #fff;
+}
+
+.main-container form .input-container .error-message {
+    font-size: 14px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    color: #ff0000;
+    bottom: -20px;
+}
+
+.button {
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #084750;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+}
